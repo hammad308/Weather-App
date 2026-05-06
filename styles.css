@@ -38,6 +38,10 @@ body{
     border-radius:10px;
     padding:1rem;
 }
+#get-weather-btn:hover{
+    background-color: rgb(216, 197, 218);
+    cursor: pointer;
+}
 #weather-cities{
    width:15rem;
    height:4rem;

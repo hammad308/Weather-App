@@ -32,8 +32,10 @@ A clean, responsive weather app built with vanilla HTML, CSS, and JavaScript. Se
 ```
 weather-app/
 │
-├── index.html       # Main app — HTML, CSS, and JS all in one file
+├── index.html       # HTML
 └── README.md        # You are here
+├── styles.css       # Styling
+└── script.js        # Interactivity
 ```
  
 ---

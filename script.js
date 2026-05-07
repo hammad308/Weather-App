@@ -22,8 +22,7 @@ async function getWeather(city) {
 async function showWeather(city) {
   try {
     const data = await getWeather(city);
-
-    if (!data || data===undefined) {
+    if (!data || data===undefined || Object.keys(data).length===1) {
       alert("Something went wrong, please try again later");
       return;
     }
